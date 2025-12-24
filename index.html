@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Junior SysAdmin | Портфолио в стиле dorksense</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Навигация -->
+    <header>
+        <div class="container">
+            <nav>
+                <a href="#" class="logo">
+                    <i class="fas fa-server"></i>
+                    Junior<span>SysAdmin</span>
+                </a>
+                
+                <div class="menu-toggle" id="menuToggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+                
+                <div class="nav-links" id="navLinks">
+                    <a href="#home">Главная</a>
+                    <a href="#about">Обо мне</a>
+                    <a href="#skills">Навыки</a>
+                    <a href="#experience">Опыт</a>
+                    <a href="#project">Проект</a>
+                    <a href="#contact">Контакты</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero секция -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Junior <span>Системный администратор</span> с 2.5 годами опыта</h1>
+                <p>Специализируюсь на развертывании и поддержке IT-инфраструктуры, автоматизации рутинных задач и обеспечении безопасности систем. Активно развиваюсь в направлении DevOps.</p>
+                <a href="#project" class="btn">Мой проект</a>
+                <a href="#contact" class="btn btn-secondary">Связаться со мной</a>
+            </div>
+        </div>
+        <div id="canvas3d"></div>
+    </section>
+
+    <!-- Обо мне -->
+    <section id="about">
+        <div class="container">
+            <div class="section-title">
+                <h2>Обо <span>мне</span></h2>
+                <p>Junior системный администратор с опытом работы 2.5 года и бэкграундом в программировании</p>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-flex">
+                    <div class="about-text">
+                        <h3>Андрей Федченко</h3>
+                        <p>Начинающий системный администратор с 2.5-летним опытом работы в IT-инфраструктуре. Начинал с программирования (PHP) и администрирования веб-серверов, что дало глубокое понимание работы веб-приложений и взаимодействия с Linux-серверами.</p>
+                        <p>Мой путь в IT начался с программирования, где я настраивал внешний вид сайтов на PHP и взаимодействовал с серверами на Linux. Этот опыт помог мне понять, как устроена backend-часть проектов, что стало отличной базой для перехода в системное администрирование.</p>
+                        <p>Сейчас фокусируюсь на развитии навыков в области DevOps: автоматизации развертывания, контейнеризации, мониторинга и управления инфраструктурой как код (IaaC).</p>
+                        <div class="stats">
+                            <div class="stat-item">
+                                <h4>2.5+</h4>
+                                <p>Года в IT</p>
+                            </div>
+                            <div class="stat-item">
+                                <h4>1</h4>
+                                <p>Комплексный проект</p>
+                            </div>
+                            <div class="stat-item">
+                                <h4>2</h4>
+                                <p>Направления (Dev + Ops)</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="about-card">
+                        <div class="card-content">
+                            <div class="avatar">
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <h3>Ключевые компетенции</h3>
+                            <ul>
+                                <li>Администрирование Linux-серверов</li>
+                                <li>Docker & Docker Compose</li>
+                                <li>Настройка веб-серверов (Nginx)</li>
+                                <li>Мониторинг (Prometheus, Grafana)</li>
+                                <li>Автоматизация (Ansible, Bash)</li>
+                                <li>Основы сетей и VPN</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Навыки -->
+    <section id="skills">
+        <div class="container">
+            <div class="section-title">
+                <h2>Мои <span>навыки</span></h2>
+                <p>Технологии и инструменты, которые я использую в работе</p>
+            </div>
+            
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-linux"></i>
+                    </div>
+                    <h3>Администрирование Linux</h3>
+                    <p>Ubuntu, CentOS, Debian. Установка, настройка, обслуживание. Работа с SSH, управление пользователями, правами доступа, пакетными менеджерами.</p>
+                </div>
+                
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-docker"></i>
+                    </div>
+                    <h3>Контейнеризация</h3>
+                    <p>Docker, Docker Compose. Создание образов, управление контейнерами, оркестрация многоконтейнерных приложений.</p>
+                </div>
+                
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Мониторинг</h3>
+                    <p>Prometheus, Grafana. Настройка сбора метрик, создание дашбордов, алертинг. Базовый скриптинг для кастомных метрик.</p>
+                </div>
+                
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-network-wired"></i>
+                    </div>
+                    <h3>Сети и безопасность</h3>
+                    <p>Основы сетевых технологий (IP, маршрутизация). Настройка VPN (WireGuard), фаерволы (iptables, ufw). Безопасность серверов.</p>
+                </div>
+                
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h3>Автоматизация</h3>
+                    <p>Ansible, Bash-скрипты. Автоматизация развертывания и настройки серверов. Основы YAML для написания плейбуков.</p>
+                </div>
+                
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-php"></i>
+                    </div>
+                    <h3>Веб-разработка</h3>
+                    <p>PHP, HTML, CSS. Опыт работы с веб-серверами (Apache, Nginx), настройка окружения для веб-приложений.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Опыт работы -->
+    <section id="experience">
+        <div class="container">
+            <div class="section-title">
+                <h2>Опыт <span>работы</span></h2>
+                <p>Мой профессиональный путь в IT</p>
+            </div>
+            
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <span class="timeline-date">2022 - Настоящее время</span>
+                        <h3>Junior Системный администратор</h3>
+                        <p>IT-компания, удаленно</p>
+                        <ul>
+                            <li>Администрирование Linux-серверов (Ubuntu, CentOS)</li>
+                            <li>Настройка и поддержка веб-серверов (Nginx, Apache)</li>
+                            <li>Мониторинг систем с помощью Prometheus и Grafana</li>
+                            <li>Автоматизация задач с помощью Bash-скриптов</li>
+                            <li>Поддержка Docker-контейнеров</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <span class="timeline-date">2021 - 2022</span>
+                        <h3>Веб-разработчик / Администратор</h3>
+                        <p>Студия веб-разработки</p>
+                        <ul>
+                            <li>Разработка и поддержка сайтов на PHP</li>
+                            <li>Настройка веб-серверов под PHP-приложения</li>
+                            <li>Взаимодействие с Linux-серверами (настройка окружения)</li>
+                            <li>Рефакторинг и оптимизация существующего кода</li>
+                            <li>Работа с Git, деплой приложений</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <span class="timeline-date">2020 - 2021</span>
+                        <h3>Стажер в IT-отделе</h3>
+                        <p>Техническая поддержка, локальная компания</p>
+                        <ul>
+                            <li>Поддержка пользователей (1-2 линия)</li>
+                            <li>Настройка рабочего ПО</li>
+                            <li>Поддержка оргтехники</li>
+                            <li>Основы работы с Active Directory</li>
+                            <li>Документирование процессов</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Проект -->
+    <section id="project">
+        <div class="container">
+            <div class="section-title">
+                <h2>Мой <span>проект</span></h2>
+                <p>Комплексный проект "Развертывание и автоматизация инфраструктуры"</p>
+            </div>
+            
+            <div class="project-container">
+                <div class="project-header">
+                    <h3>Личный блог с полным циклом автоматизации</h3>
+                    <p class="project-subtitle">Проект включает 4 этапа, охватывающих ключевые аспекты системного администрирования и DevOps</p>
+                    <a href="https://github.com/yourusername/project-name" class="btn" target="_blank">
+                        <i class="fab fa-github"></i> Код на GitHub
+                    </a>
+                </div>
+                
+                <div class="project-stages">
+                    <div class="stage-card">
+                        <div class="stage-number">1</div>
+                        <h4>Запуск личного блога</h4>
+                        <p><strong>Цель:</strong> Развертывание веб-приложения</p>
+                        <p><strong>Технологии:</strong> Linux, SSH, Docker, Docker Compose, Nginx</p>
+                        <p><strong>Результат:</strong> Работающий блог в контейнерах с обратным прокси</p>
+                    </div>
+                    
+                    <div class="stage-card">
+                        <div class="stage-number">2</div>
+                        <h4>Система мониторинга</h4>
+                        <p><strong>Цель:</strong> Настройка мониторинга инфраструктуры</p>
+                        <p><strong>Технологии:</strong> Prometheus, Grafana, Bash-скриптинг</p>
+                        <p><strong>Результат:</strong> Дашборды с метриками системы и приложений</p>
+                    </div>
+                    
+                    <div class="stage-card">
+                        <div class="stage-number">3</div>
+                        <h4>Автоматизация настройки</h4>
+                        <p><strong>Цель:</strong> Автоматизация развертывания</p>
+                        <p><strong>Технологии:</strong> Ansible, YAML, управление конфигурациями</p>
+                        <p><strong>Результат:</strong> Плейбуки для автоматической настройки серверов</p>
+                    </div>
+                    
+                    <div class="stage-card">
+                        <div class="stage-number">4</div>
+                        <h4>Домашний VPN/шлюз</h4>
+                        <p><strong>Цель:</strong> Организация безопасного доступа</p>
+                        <p><strong>Технологии:</strong> Сети (IP, маршрутизация), WireGuard, firewall</p>
+                        <p><strong>Результат:</strong> Защищенный доступ к инфраструктуре через VPN</p>
+                    </div>
+                </div>
+                
+                <div class="project-technologies">
+                    <h4>Используемые технологии в проекте:</h4>
+                    <div class="tech-tags">
+                        <span class="tech-tag">Linux</span>
+                        <span class="tech-tag">Docker</span>
+                        <span class="tech-tag">Nginx</span>
+                        <span class="tech-tag">Prometheus</span>
+                        <span class="tech-tag">Grafana</span>
+                        <span class="tech-tag">Ansible</span>
+                        <span class="tech-tag">WireGuard</span>
+                        <span class="tech-tag">Bash</span>
+                        <span class="tech-tag">YAML</span>
+                        <span class="tech-tag">Git</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Контакты -->
+    <section id="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>Связаться <span>со мной</span></h2>
+                <p>Готов к новым вызовам и сотрудничеству</p>
+            </div>
+            
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <h3>Email</h3>
+                            <p>junior.sysadmin@portfolio.ru</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <div>
+                            <h3>GitHub</h3>
+                            <p>github.com/yourusername</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                            <h3>Локация</h3>
+                            <p>Москва / Удаленная работа</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-file-alt"></i>
+                        </div>
+                        <div>
+                            <h3>Резюме</h3>
+                            <p>Готов предоставить по запросу</p>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="https://github.com/yourusername" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-telegram"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Имя</label>
+                            <input type="text" id="name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Сообщение</label>
+                            <textarea id="message" rows="5" placeholder="Расскажите о вашем проекте или вакансии..." required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn">Отправить сообщение</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Футер -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="logo">
+                    <i class="fas fa-server"></i>
+                    Junior<span>SysAdmin</span>
+                </div>
+                <p class="footer-text">Junior системный администратор с фокусом на автоматизацию и DevOps подход</p>
+                <p class="copyright">© 2023 Junior SysAdmin Portfolio. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Three.js библиотеки -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/loaders/GLTFLoader.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.min.js"></script>
+    
+    <!-- Основной скрипт -->
+    <script src="script.js"></script>
+</body>
+</html>
